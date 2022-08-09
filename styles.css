@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image:url(./pexels-pixabay-261763.jpg) ;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(217, 255, 245, 0.5);
+    padding: 1em;
+    border-radius: 10px;
+    
+}
+
+.mainDos {
+    display: none
+}
+
+.main:active {
+    display: hidden
+}
+
+.end-game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 223, 217, 0.5);
+    padding: 1em;
+    border-radius: 10px;
+}
+
+input {
+    border-radius: 7px;
+    padding: 1em;
+    background-color: rgb(255, 223, 217); 
+    margin: 1em;
+}
+
+h2 {
+    padding: 1em
+}
+
+.time-container, .score-container {
+    font-size: 1.5rem;
+    padding: 0.3em
+}
